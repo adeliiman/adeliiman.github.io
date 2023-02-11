@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wellcome to my site
+title: Welcome 
 ---
 [download my resume](https://github.com/adeliiman/adeliiman.github.io/raw/master/Resume-iman-adeli.pdf)
 
