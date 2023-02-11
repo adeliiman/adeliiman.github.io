@@ -1,6 +1,7 @@
 ---
-layout: post
-title: Welcome 
+layout: page
+title: 
+permalink: /
 ---
 
 Python developer with a demonstrated history of making trader bots. Skilled in Python (Programming Language), developing copy trade and arbitrage bots.
