@@ -1,1 +1,10 @@
-My Publications
+
+---
+layout: page
+title: Publications
+permalink: /publications/
+---
+
+
+
+### My Publications
