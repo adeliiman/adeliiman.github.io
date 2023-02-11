@@ -1,11 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Wellcome to my site
 ---
-[download resume](https://github.com/adeliiman/adeliiman.github.io/raw/master/Resume-iman-adeli.pdf)
+[download my resume](https://github.com/adeliiman/adeliiman.github.io/raw/master/Resume-iman-adeli.pdf)
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Python developer with a demonstrated history of making trader bots. Skilled in Python (Programming Language), developing copy trade and arbitrage bots.
+Strong mathematics with a master's degree in applied mathematics. Creative mind and high analytical power to dive into solving different problems.
+Interested and familiar with Data Science, financial markets, trading, blockchain, encryption, Raspberry Pi, and new technologies.
