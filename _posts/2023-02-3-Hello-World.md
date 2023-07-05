@@ -7,6 +7,6 @@ Python developer with a demonstrated history of making trader bots. Skilled in P
 Strong mathematics with a master's degree in applied mathematics. Creative mind and high analytical power to dive into solving different problems.
 Interested and familiar with Data Science, financial markets, trading, blockchain, encryption, Raspberry Pi, and new technologies.
 
-[Download my Resume](https://github.com/adeliiman/adeliiman.github.io/raw/master/Resume-iman-adeli.pdf)
+[Download my Resume](https://github.com/adeliiman/adeliiman.github.io/raw/master/ImanAdeli-Resume.pdf)
 
 
