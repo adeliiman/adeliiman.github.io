@@ -9,5 +9,5 @@ Interested and familiar with Data Science, financial markets, trading, blockchai
 
 
 [Download my Resume](https://github.com/adeliiman/adeliiman.github.io/blob/master/ImanAdeli-Resume.pdf)
-
+                    
 
