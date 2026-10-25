@@ -77,8 +77,11 @@ permalink: /
 </section>
 
 <section class="section-block skills-section" id="skills">
-  <div class="section-heading"><div><span class="eyebrow">TOOLS OF THE TRADE</span><h2>Built with the right tools.</h2></div><a class="text-link" href="{{ site.baseurl }}/skills/">View all skills <span>↗</span></a></div>
-  <div class="skills-cloud"><span>Python</span><span>Django</span><span>FastAPI</span><span>Flask</span><span>REST APIs</span><span>WebSockets</span><span>PostgreSQL / SQLite</span><span>Redis</span><span>Pandas</span><span>NumPy</span><span>Docker</span><span>Git</span><span>JavaScript</span><span>Bootstrap</span><span>Streamlit</span><span>Trading automation</span></div>
+  <div class="section-heading">
+    <div><span class="eyebrow">SKILLS &amp; CERTIFICATES</span><h2>Data, Python &amp; cloud foundations.</h2></div>
+    <a class="text-link" href="{{ site.baseurl }}/skills/">View all 13 certificates <span>↗</span></a>
+  </div>
+  <div class="skills-cloud"><span>Python</span><span>SQL</span><span>Data Engineering</span><span>Data Pipelines</span><span>Apache Airflow</span><span>PySpark</span><span>AWS Cloud</span><span>Boto for Python</span><span>Bash</span><span>Shell</span><span>Unit Testing</span></div>
 </section>
 
 <section class="contact-panel" id="contact">
@@ -98,5 +101,3 @@ permalink: /
     <p class="empty-posts">Technical notes and articles will appear here as they are published.</p>
   {% endif %}
 </section>
-
-<!-- Trigger GitHub Pages rebuild for the portfolio redesign. -->
