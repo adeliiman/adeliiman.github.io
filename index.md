@@ -98,3 +98,5 @@ permalink: /
     <p class="empty-posts">Technical notes and articles will appear here as they are published.</p>
   {% endif %}
 </section>
+
+<!-- Trigger GitHub Pages rebuild for the portfolio redesign. -->
