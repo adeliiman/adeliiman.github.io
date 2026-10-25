@@ -504,3 +504,31 @@ footer { padding: 27px 0; text-align: left; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+
+
+// -----------------------------------------------------------------------------
+// Skills & certificates page
+// -----------------------------------------------------------------------------
+.certificates-intro { padding: 48px 0 35px; border-bottom: 1px solid $line; }
+.certificates-intro h1 { margin: 13px 0; font-size: clamp(36px, 5vw, 54px); font-weight: 800; }
+.certificates-intro > p { max-width: 680px; font-size: 13px; }
+.certificate-summary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; margin-top: 25px; color: $muted; font-size: 11px; }
+.certificate-summary strong { color: $accent; font-family: "DM Mono", monospace; font-size: 17px; }
+.certificate-summary i { width: 1px; height: 18px; margin: 0 8px; background: $line; }
+.certificate-group { padding: 42px 0 12px; }
+.certificate-group-heading { margin-bottom: 20px; }
+.certificate-group-heading h2 { margin: 8px 0 0; font-size: clamp(23px, 3vw, 30px); }
+.certificates-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 13px; }
+.certificate-card { display: flex; flex-direction: column; min-height: 150px; padding: 20px; border: 1px solid $line; border-radius: 13px; background: linear-gradient(145deg, rgba(20,31,44,.92), rgba(16,24,35,.92)); transition: border-color .2s ease, transform .2s ease; }
+.certificate-card:hover { border-color: rgba(105,240,194,.42); transform: translateY(-2px); }
+.certificate-kicker { color: $accent; font-family: "DM Mono", monospace; font-size: 9px; letter-spacing: .08em; }
+.certificate-card h3 { margin: 15px 0 20px; font-size: 15px; line-height: 1.45; }
+.certificate-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 7px; margin-top: auto; padding-top: 12px; border-top: 1px solid $line; color: #8495a8; font-size: 10px; }
+.certificate-meta time { font-family: "DM Mono", monospace; font-size: 9px; }
+@media (max-width: 900px) { .certificates-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 650px) {
+  .certificates-intro { padding-top: 30px; }
+  .certificates-grid { grid-template-columns: 1fr; }
+  .certificate-card { min-height: 0; }
+  .certificate-summary { gap: 7px 9px; }
+}
