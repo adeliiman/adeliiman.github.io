@@ -12,7 +12,7 @@ permalink: /
     <div class="hero-actions">
       <a class="button button-primary" href="{{ site.baseurl }}/projects/">Explore my work <span aria-hidden="true">↗</span></a>
       <a class="button button-secondary" href="mailto:im.adeliiman@gmail.com">Let’s work together</a>
-      <a class="button button-secondary" href="{{ site.baseurl }}/ImanAdeli-Resume.pdf" download>Download résumé <span aria-hidden="true">↓</span></a>
+      <a class="button button-secondary" href="{{ site.baseurl }}/ImanAdeli-Resume.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
     </div>
     <div class="hero-meta">
       <span>Python / Django / FastAPI</span>
