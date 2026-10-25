@@ -1,56 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0f16">
+    <title>{% if page.title and page.title != "Home" %}{{ page.title }} – {% endif %}{{ site.name }}{% if page.title and page.title != "Home" %} – {{ site.description }}{% endif %}</title>
     {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
   </head>
-
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
+          <a href="{{ site.baseurl }}/" class="site-avatar" aria-label="{{ site.name }} home"><img src="{{ site.avatar }}" alt="{{ site.name }} logo"></a>
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}<span class="brand-dot">.</span></a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
-          <nav>
+          <nav aria-label="Main navigation">
             <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/education">Education</a>
-            <a href="{{ site.baseurl }}/publications">Publications</a>
-            <a href="{{ site.baseurl }}/skills">Skills</a>
-            <a href="{{ site.baseurl }}/experience">Experience</a>
-            <a href="{{ site.baseurl }}/projects">Projects</a>
-<!--             <a href="{{ site.baseurl }}/about">About</a> -->
+            <a href="{{ site.baseurl }}/projects/">Projects</a>
+            <a href="{{ site.baseurl }}/skills/">Skills</a>
+            <a href="{{ site.baseurl }}/experience/">Experience</a>
+            <a href="{{ site.baseurl }}/education/">Education</a>
+            <a href="{{ site.baseurl }}/publications/">Publications</a>
+            <a class="nav-contact" href="mailto:im.adeliiman@gmail.com">Contact <span aria-hidden="true">↗</span></a>
           </nav>
         </header>
       </div>
     </div>
-
-    <div id="main" role="main" class="container">
+    <main id="main" role="main" class="container">
       {{ content }}
-    </div>
-
+    </main>
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          <div class="footer-top"><a class="footer-brand" href="{{ site.baseurl }}/">{{ site.name }}<span class="brand-dot">.</span></a><span>Building useful things with Python.</span></div>
           {% include svg-icons.html %}
+          <div class="footer-bottom"><span>© {{ site.time | date: "%Y" }} {{ site.name }}</span><a href="mailto:im.adeliiman@gmail.com">Get in touch ↗</a></div>
         </footer>
       </div>
     </div>
-
     {% include analytics.html %}
   </body>
 </html>
