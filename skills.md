@@ -1,42 +1,43 @@
 ---
 layout: page
-title: Skills
+title: Skills & Certificates
 permalink: /skills/
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Data+Scientist;Python+Developer;Algotrading)](https://git.io/typing-svg)
+<section class="certificates-intro">
+  <span class="eyebrow">CONTINUOUS LEARNING</span>
+  <h1>Skills &amp; Certificates</h1>
+  <p>A curated record of completed training in data engineering, Python, SQL, cloud fundamentals and developer tooling.</p>
+  <div class="certificate-summary"><strong>13</strong><span>completed certificates</span><i></i><strong>50 hrs</strong><span>total course time</span></div>
+</section>
 
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+<section class="certificate-group">
+  <div class="certificate-group-heading"><span class="eyebrow">01 / DATA ENGINEERING</span><h2>Data pipelines &amp; processing</h2></div>
+  <div class="certificates-grid">
+    <article class="certificate-card"><span class="certificate-kicker">DATA ENGINEERING</span><h3>Introduction to Data Engineering</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-07">Oct 7, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">DATA ENGINEERING</span><h3>Introduction to Data Pipelines</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-14">Oct 14, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">PYTHON · DATA ENGINEERING</span><h3>Building Data Engineering Pipelines in Python</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-27">Oct 27, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">WORKFLOW ORCHESTRATION</span><h3>Introduction to Airflow in Python</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-27">Oct 27, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">DISTRIBUTED DATA</span><h3>Introduction to PySpark</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-12">Oct 12, 2023</time></div></article>
+  </div>
+</section>
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+<section class="certificate-group">
+  <div class="certificate-group-heading"><span class="eyebrow">02 / DATABASES</span><h2>SQL &amp; data manipulation</h2></div>
+  <div class="certificates-grid">
+    <article class="certificate-card"><span class="certificate-kicker">SQL</span><h3>Intermediate SQL</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-09-02">Sep 2, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">SQL</span><h3>Joining Data in SQL</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-09-03">Sep 3, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">SQL</span><h3>Data Manipulation in SQL</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-09-04">Sep 4, 2023</time></div></article>
+  </div>
+</section>
 
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![RStudio](https://img.shields.io/badge/RStudio-4285F4?style=for-the-badge&logo=rstudio&logoColor=white)
-![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important)
-
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
-
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
+<section class="certificate-group">
+  <div class="certificate-group-heading"><span class="eyebrow">03 / CLOUD &amp; DEVELOPER TOOLS</span><h2>Cloud, scripting &amp; testing</h2></div>
+  <div class="certificates-grid">
+    <article class="certificate-card"><span class="certificate-kicker">AWS</span><h3>AWS Cloud Concepts</h3><div class="certificate-meta"><span>2 hours</span><time datetime="2023-10-30">Oct 30, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">AWS · PYTHON</span><h3>Introduction to AWS Boto in Python</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-11-02">Nov 2, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">SHELL SCRIPTING</span><h3>Introduction to Bash Scripting</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-11-10">Nov 10, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">SHELL</span><h3>Introduction to Shell</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-05">Oct 5, 2023</time></div></article>
+    <article class="certificate-card"><span class="certificate-kicker">PYTHON · TESTING</span><h3>Unit Testing for Data Science in Python</h3><div class="certificate-meta"><span>4 hours</span><time datetime="2023-10-11">Oct 11, 2023</time></div></article>
+  </div>
+</section>
