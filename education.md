@@ -18,4 +18,4 @@ Professor Mahmoud Mohseni Moghadam mohseni@uk.ac.ir
 
 ### 2005 - 2009
 B.S. in Mathematics\
-University of Zabol
+
